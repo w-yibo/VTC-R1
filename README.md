@@ -24,7 +24,7 @@
 
 
 
-<sup>1</sup>[Nanyang Technological University](https://www.ntu.edu.sg/), <sup>2</sup>[Alibaba Group]()
+<sup>1</sup>[Nanyang Technological University](https://www.ntu.edu.sg/), <sup>2</sup>[Alibaba Cloud Computing]()
 
 
 
