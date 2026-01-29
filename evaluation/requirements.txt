@@ -1,0 +1,15 @@
+
+
+datasets
+
+python_dateutil
+
+# math_eval
+sympy
+antlr4-python3-runtime # ! The version needs to be compatible with sympy.
+word2number
+Pebble
+timeout-decorator
+pdf2image
+reportlab
+git+https://github.com/ZubinGou/latex2sympy.git

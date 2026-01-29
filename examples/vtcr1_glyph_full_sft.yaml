@@ -1,0 +1,50 @@
+### model
+model_name_or_path: ./Glyph
+image_max_pixels: 262144
+video_max_pixels: 16384
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: full
+freeze_vision_tower: true
+freeze_multi_modal_projector: true
+freeze_language_model: false
+deepspeed: examples/deepspeed/ds_z3_config.json
+
+### dataset
+dataset: vtc-r1
+template: glm4v
+cutoff_len: 32768
+max_samples: 110000
+overwrite_cache: true
+preprocessing_num_workers: 16
+dataloader_num_workers: 8
+
+### output
+output_dir: ./vtc-r1-glyph-new
+logging_steps: 10
+save_strategy: epoch
+plot_loss: true
+overwrite_output_dir: true
+save_only_model: true
+report_to: none  # choices: [none, wandb, tensorboard, swanlab, mlflow]
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 8
+learning_rate: 1.0e-5
+num_train_epochs: 1
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+# max_grad_norm: 10
+# resume_from_checkpoint: null
+
+### eval
+# val_size: 0.1
+# per_device_eval_batch_size: 1
+# eval_strategy: steps
+# eval_steps: 500

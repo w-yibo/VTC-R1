@@ -1,0 +1,1 @@
+bash scripts/run_eval.sh direct /YOUR/PATH/TO/MODEL
