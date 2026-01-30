@@ -7,7 +7,7 @@
 
 <h5 align="center"> 
 
-<a href=''><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+<a href='https://arxiv.org/abs/2601.22069'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 <a href='https://huggingface.co/yiboowang/VTC-R1-Glyph'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'>
 <a href=''><img src='https://img.shields.io/badge/Dataset-Huggingface-yellow'>
 
@@ -37,7 +37,7 @@
 
 ## News
 
-- [x] **`Jan 30, 2026.`** We release our paper in [arxiv]() and our model in [huggingface](https://huggingface.co/yiboowang/VTC-R1-Glyph).
+- [x] **`Jan 30, 2026.`** We release our paper in [arxiv](https://arxiv.org/abs/2601.22069) and our model in [huggingface](https://huggingface.co/yiboowang/VTC-R1-Glyph).
 
 ## Case Inference
 
@@ -114,7 +114,15 @@ llamafactory-cli train examples/vtcr1_glyph_full_sft.yaml
 ## Citation
 If you find this repository is useful, please star🌟 this repo and cite🖇️ our paper.
 ```bibtex
-
+@misc{wang2026vtcr1visiontextcompressionefficient,
+      title={VTC-R1: Vision-Text Compression for Efficient Long-Context Reasoning}, 
+      author={Yibo Wang and Yongcheng Jing and Shunyu Liu and Hao Guan and Rong-cheng Tu and Chengyu Wang and Jun Huang and Dacheng Tao},
+      year={2026},
+      eprint={2601.22069},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2601.22069}, 
+}
 ```
 
 
