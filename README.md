@@ -114,14 +114,11 @@ llamafactory-cli train examples/vtcr1_glyph_full_sft.yaml
 ## Citation
 If you find this repository is useful, please star🌟 this repo and cite🖇️ our paper.
 ```bibtex
-@misc{wang2026vtcr1visiontextcompressionefficient,
-      title={VTC-R1: Vision-Text Compression for Efficient Long-Context Reasoning}, 
-      author={Yibo Wang and Yongcheng Jing and Shunyu Liu and Hao Guan and Rong-cheng Tu and Chengyu Wang and Jun Huang and Dacheng Tao},
-      year={2026},
-      eprint={2601.22069},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2601.22069}, 
+@article{wang2026vtc,
+  title={VTC-R1: Vision-Text Compression for Efficient Long-Context Reasoning},
+  author={Wang, Yibo and Jing, Yongcheng and Liu, Shunyu and Guan, Hao and Tu, Rong-cheng and Wang, Chengyu and Huang, Jun and Tao, Dacheng},
+  journal={arXiv preprint arXiv:2601.22069},
+  year={2026}
 }
 ```
 
