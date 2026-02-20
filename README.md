@@ -37,7 +37,7 @@
 
 ## News
 
-- [x] **`Jan 30, 2026.`** We release our paper in [arxiv](https://arxiv.org/abs/2601.22069) and our model in [huggingface](https://huggingface.co/yiboowang/VTC-R1-Glyph).
+- [x] **`Jan 29, 2026.`** We release our paper in [arxiv](https://arxiv.org/abs/2601.22069) and our model in [huggingface](https://huggingface.co/yiboowang/VTC-R1-Glyph).
 
 ## Case Inference
 
